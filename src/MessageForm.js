@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: '0.5rem',
     border: '1px solid white',
   },
+  
 })
 
 export default MessageForm
