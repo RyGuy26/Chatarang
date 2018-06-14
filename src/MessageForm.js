@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
 
   button: {
     fontSize: '1.5rem',
-    backgroundColor: '#1A8FE3',
+    backgroundColor: '#FF3333',
     color: 'white',
     paddingLeft: '1rem',
     paddingRight: '1rem',
