@@ -3,13 +3,12 @@ import React, { Component } from 'react'
 import Sidebar from './Sidebar'
 import Chat from './Chat'
 
-class Main extends Component {
-
+class Random extends Component {
   render() {
     return (
-      <div className="Main" style={styles}>
+      <div className="Random" style={styles}>
         <Sidebar user={this.props.user} signOut={this.props.signOut} />
-        <Chat user={this.props.user} chat ={'default'} />
+        <Chat user={this.props.user} />
       </div>
     )
   }
@@ -21,4 +20,4 @@ const styles = {
   height: '100vh',
 }
 
-export default Main
+export default Random

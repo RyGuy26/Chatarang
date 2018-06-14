@@ -14,7 +14,7 @@ class Chat extends Component {
     }
   }
  componentWillMount(){
-   base.syncState('messages',{
+   base.syncState(this.props.chat /'messages',{
      context: this,
      state: 'messages',
      asArray:true,
