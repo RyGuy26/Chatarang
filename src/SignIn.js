@@ -59,6 +59,14 @@ class SignIn extends Component {
               <i className={`fab fa-google ${css(styles.brandIcon)}`}></i>
               Sign in with Google
             </button>
+            <button
+              type="button"
+              className={css(styles.button)}
+              onClick={this.authenticate}
+            >
+              <i className={`Hey`}></i>
+              I tried for a long time and couldnt get it to work :(
+            </button>
           </form>
 
           <div className="blurb">
