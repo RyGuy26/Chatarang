@@ -14,7 +14,7 @@ class SignIn extends Component {
 
   handleSubmit = (ev) => {
     ev.preventDefault()
-    // do something?
+    
   }
 
   authenticate = () => {
@@ -65,7 +65,7 @@ class SignIn extends Component {
               onClick={this.authenticate}
             >
               <i className={`Hey`}></i>
-              I tried for a long time and couldnt get it to work :(
+              Sign in with Github
             </button>
           </form>
 

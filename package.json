@@ -6,7 +6,9 @@
     "aphrodite": "^2.2.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "rebase": "^0.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,8 +16,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig":
-  {
+  "eslintConfig": {
     "extends": "react-app"
   }
 }
