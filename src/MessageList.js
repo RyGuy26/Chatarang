@@ -46,10 +46,11 @@ const styles = {
   },
 
   announcement: {
-    padding: '2rem 1rem 10rem',
+    padding: '0rem 1rem 3rem',
   },
 
   h3: {
+    
     fontSize: '1.5rem',
   },
 }
